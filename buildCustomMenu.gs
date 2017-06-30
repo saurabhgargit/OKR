@@ -6,7 +6,7 @@ function onOpen() {
   menu.addItem('Fetch Sprint Tickets', 'fetchSprintTickets');
   menu.addItem('Fetch Hotfix And Patch Tickets', 'fetchHotfixAndPatchTickets');
   menu.addItem('Clear All Data', 'clearAllData');
-  menu.addToUi();               
+  menu.addToUi()             
 }
 
 function clearAllData() {
