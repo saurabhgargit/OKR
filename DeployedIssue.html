@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <style>
+      table, td, th {
+      border: 1px solid black;
+     }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th {
+      height: 50px;
+    }
+  </style>
+  </head>
+  <body>
+    <? var data = getDeployedIssueListData(); ?>
+    <table border="1">
+      <? for (var i = 0; i < data.length; i++) { ?>
+        <tr align='center' style="width:100%; font-weight:bold; font-family:verdana;">
+          <? for (var j = 0; j < data[i].length; j++) { ?>
+            <td><?= data[i][j] ?></td>
+          <? } ?>
+        </tr>
+      <? } ?>
+    </table> 
+  </body>
+</html>
