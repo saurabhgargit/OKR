@@ -11,13 +11,13 @@ var options =
       "headers" : header
     };
 
-var base_search_url = "https://bigbasket.atlassian.net/rest/api/2/search?";
+var base_search_url = "https://shfwfs.atlassian.net/rest/api/2/search?";
 var maxResults = 1000;
-var jiraIssueURL = "https://bigbasket.atlassian.net/browse/";
+var jiraIssueURL = "https://sjgdf.atlassian.net/browse/";
 
 
 function jiraLogin() {
-  var response = UrlFetchApp.fetch("https://bigbasket.atlassian.net/rest/auth/1/session", options);
+  var response = UrlFetchApp.fetch("https://dsajhgs.atlassian.net/rest/auth/1/session", options);
   var headers = response.getAllHeaders();
   var cookiesArray = response.getAllHeaders()['Set-Cookie'];
   
