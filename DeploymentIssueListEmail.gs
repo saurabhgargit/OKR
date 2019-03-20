@@ -16,7 +16,7 @@ function emailDeployedIssueSummary() {
   var subject = readMetaData().sprint + " Deployed to production";
   var body = getDeploymentSummaryHTMLTable();
     
-  GmailApp.sendEmail("saurabh.garg@bigbasket.com", subject, "",{ htmlBody: body});
+  GmailApp.sendEmail("saurabh.garg@sdhjgfsjd.com", subject, "",{ htmlBody: body});
   
 }
 
